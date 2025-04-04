@@ -1,6 +1,5 @@
 // models/Author.ts
 import { MysqlEntity } from '@/config/mysqlEntity';
-import { RoleEnum } from '@/types/user';
 import { DataTypes, Model, Optional } from 'sequelize';
 
 // Define the attributes of the Author model
@@ -51,7 +50,7 @@ export const AuthorSqlFields = {
   role: {
     type: DataTypes.STRING(2),
     allowNull: false,
-    defaultValue: RoleEnum.member,
+    defaultValue: 0,
   },
   userId: {
     type: DataTypes.UUID,
