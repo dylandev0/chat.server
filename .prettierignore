@@ -1,0 +1,9 @@
+**/dist
+**/coverage
+**/.vscode
+**/.nyc_output
+**/.vs
+**/node_modules
+**/.next
+**/storage
+index.ts

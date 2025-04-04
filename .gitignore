@@ -1,0 +1,9 @@
+
+node_modules
+build
+.env
+storage/documents/candidates
+
+*/.DS_Store
+.DS_Store
+shell
